@@ -17,7 +17,7 @@ public:
 
     double divide(int a, int b) {
         if (b == 0) {
-            cout << "Error: Division by zero!" << endl;
+            cout << "Error: divide by zero!" << endl;
             return 0;
         }
         return (double)a / b;
